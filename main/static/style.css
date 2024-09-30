@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+    font-family: 'Baguet Script', cursive;
+    color: #6C484E; 
+    background:#F6D9DD;
+    background-image: url("https://i.im.ge/2024/09/10/fKJW79.img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  /* Header Styles */
+  h1 {
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+    top: 25px;
+  }
+  /* Form Layout */
+  form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+  }
+  textarea {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #D996A1; 
+    border-radius: 10px;
+    width: calc(50% - 22px); /*Adjust to fit with label*/
+    background-color: #F6D9DD; 
+    color: #6C484E;
+  }
+  button {
+    position: relative;
+    top: 3px;
+    background-color: #F6D9DD;
+    color: #6C484E; 
+    border: 2px solid #D996A1; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 3px;
+  }
+  button:hover {
+    background-color: #6C484E;
+    color: #F6D9DD;
+  }
+  /* Fieldset Styles */
+  .class {
+    position: relative;
+    top: 10px;
+    border: 2px solid #D996A1; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    max-width: 500px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #F6D9DD; 
+    color: #6C484E; 
+  }
+  legend {
+    font-weight: bold;
+    margin-bottom: 7px;
+  }
+  .results {
+    position:relative;
+    top: 10px;
+    border: 2px solid #D996A1; 
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #F6D9DD; 
+    color: #6C484E;
+    height: 200px;
+    width: 500px;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+  .results::-webkit-scrollbar {
+    width: 8px; /* Adjust the width of the scrollbar */
+    height: 8px;
+  }
+
+  .results::-webkit-scrollbar-track {
+    background: #F6D9DD; 
+    border-radius: 10px; /* Rounded corners for the track */
+  }
+
+  .results::-webkit-scrollbar-thumb {
+    background: #D996A1; 
+    border-radius: 10px; /* Rounded corners for the thumb */
+  }
+
+  .results::-webkit-scrollbar-thumb:hover {
+    background: #A57C8A; /* Optional hover effect */
+  }
